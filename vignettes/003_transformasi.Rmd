@@ -103,6 +103,7 @@ tb_all <-
   left_join(population) %>% 
   filter(!is.na(population)) %>% 
   mutate(proportion = 100*cases/population)
+tb5
 ```
 
 Dapatkah Anda membuat ringkasan apa saja hal apa saja yang dilakukan pada proses *data wrangling* diatas? (Petunjuk: `?nama_fungsi`)
@@ -111,7 +112,7 @@ Dapatkah Anda membuat ringkasan apa saja hal apa saja yang dilakukan pada proses
 2. menggabungkan kolom menjadi pasangan key-value 
 3. memilih kolom
 4. mengumpulkan data berdasarkan tahun dan negara
-5. menyederhanakan data dari group_by agar menjadi single value
+5. menghitung data dari case agar menjadi single value
 6. membuat group dari 1 atau lebih variabel
 7. left_join menggabungkan dua table
 8. filter data yang hilang
