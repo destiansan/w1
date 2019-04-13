@@ -75,7 +75,7 @@ library(tidyr)
 Dari dataset berikut ini, manakah yang termasuk Tidy Data? Dapatkah Anda menjelaskan alasan mengapa beberapa dataset berikut tidak *tidy*?
 
 ```{r}
-table1
+table1 #yang tidy yang ini
 table2
 table3
 table4a
